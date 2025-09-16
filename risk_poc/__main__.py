@@ -7,8 +7,8 @@ from random import choice
 import typer
 from rich.console import Console
 
-from risk_poc import version
-from risk_poc.example import hello
+from . import version
+from .example import hello
 
 
 class Color(str, Enum):
